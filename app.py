@@ -20,7 +20,7 @@ import sqlite3
 #app = MultiPage()
 image = Image.open('Logo.png')
 st.image(image, use_column_width=True)
-
+time.sleep(5)
 col1, col2, col3 = st.columns(3)
 col4, col5, col6 = st.columns([3,2,1])
 
